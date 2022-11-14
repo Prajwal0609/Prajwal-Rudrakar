@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prajwal</title>
+	<style type="text/css">
+		body
+		{
+		 background: #1f4037;  /* fallback for old browsers */
+
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		}
+	</style>
+</head>
+<body>
+	<br>
+	<div align="center">
+<span class="time" id="time">02:42 PM</span><br>
+<span class="date" id="date">MONDAY 11 NOV 2022</span>
+<marquee class="name" scrollamount="15" behaviour=
+"alternate">&copy; <h1>Designed by Prajwal Rudrakar</h1></marquee>
+</div>
+<script type="text/javascript">
+	const d = new Date();
+	var h = d.getHours();
+	var m = d.getMinutes();
+document.getElementById('time').innerHTML = h+":"
++m;
+</script>
+</body>
+</html>
