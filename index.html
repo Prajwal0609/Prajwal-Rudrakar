@@ -11,8 +11,10 @@ background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-2
 background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		}
 	</style>
+	
 </head>
 <body>
+
 	<br>
 	<div align="center">
 <span class="time" id="time">02:42 PM</span><br>
@@ -25,7 +27,25 @@ background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, F
 	var h = d.getHours();
 	var m = d.getMinutes();
 document.getElementById('time').innerHTML = h+":"
+
 +m;
 </script>
+<h1>JavaScript Math object</h1>
+<div id="output" class="output"></div>
+<script type="text/javascript">
+	var pi = Math.PI;
+	var round = Math.round(15.92);
+	var floor = Math.floor(4.1);
+	var min = Math.min(10,20,30,40,50);
+	var max = Math.max(10,20,30,40,50);
+	var truncate = Math.trunc(4.7);
+	var sqrt = Math.sqrt(25);
+	var random = Math.random();
+	document.getElementById('output').innerHTML = "<i>Value of output: " + Math.round(14.1)+"<br>"+
+	"Round:"+round+"<br>"+
+	"Floor:"+floor+"<br>"+
+	"Min:"+min+"<br>";
+</script>
+
 </body>
 </html>
