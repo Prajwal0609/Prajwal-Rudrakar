@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM-STYLE</title>
+</head>
+<body>
+<div align="center">
+	<h1>DOM-STYLE Turorial</h1>
+	<span id="data">
+		FIFA is the international governing body of association football, beach football and futsal. It was founded in 1904 to oversee international competition among the national associations of Belgium, Denmark, France, Germany, the Netherlands, Spain, Sweden and Switzerland. 
+		<br><br><br>
+		<button onclick="fs()">Font size small</button>
+		<button onclick="fm()">Font size Medium</button>
+		<button onclick="fl()">Font size Medium</button>
+		<button onclick="underline()">Underline Text</button>
+		<button onclick="Bold()">Bold Text</button>
+		<button onclick="italic()">italic Text</button>
+		<input type="color" id="colorValue" onchange="changeColor()">
+		<button onclick="window.location='20new.html'">Clear Formating</button>
+	</span>
+</div>
+<script type="text/javascript">
+	function fs()
+	{
+		document.getElementById('data').style.fontSize="10px";
+	}
+	function fm()
+	{
+		document.getElementById('data').style.fontSize="30px";
+	}
+	function fl()
+	{
+		document.getElementById('data').style.fontSize="60px";
+	}
+	function Underline()
+	{
+		document.getElementById('data').style.textDecoration="Underline";
+	}
+	function Bold()
+	{
+		document.getElementById('data').style.weight="bold";
+	}
+	function italic()
+	{
+		document.getElementById('data').style.fontStyle="italic";
+	}function changeColor(){
+		var color=document.getElementById('colorValue').value;
+		document.getElementById('')
+	}
+
+</script>
+</body>
+</html>
